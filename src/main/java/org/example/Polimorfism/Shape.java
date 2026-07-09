@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Polimorfism;
 
 public class Shape {
     void draw() {

@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Polimorfism;
 
 class Triangle extends Shape {
     @Override
