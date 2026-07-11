@@ -1,0 +1,6 @@
+Runnable        () -> void: executa o actiunem fara input/output
+Supplier<T>     () -> T : produce o valoare
+Consumer<T>     T -> void : consuma o valoare, nu intoarce nimic
+Function<T,R>   T -> R : transforma un input in output
+Predicate<T>    T -> boolean : testeaza o conditie
+Comparator<T>   (T,T) -> int : compara doua valori pentru sortare

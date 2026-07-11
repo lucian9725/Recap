@@ -1,0 +1,21 @@
+
+****Interfata vs. Clasa abstracta
+INTERFATA:
+- Nu poatea avea stare proprie: doar constante static final - nu campuri de instanta
+- MOSTENIRE MULTIPLA - o clasa poate implementa oricate interfete
+- CONTRACT PUR: defineste ce trebuie sa faci, rareori cum sa faci
+
+CLASA ABSTRACTA:
+- Poate avea stare: capuri de instanta, constructori
+- Mostenire simpla: o singura clasa extinde o singura clasa abstracta
+- Implementare partiala: poate oferi CE + o parte din CUM
+
+**** default & static methods:
+De ce au aparut?
+Ca sa poti adauga metode noi unei interfete existente fara sa strice toate clasele care o implementeaza deja
+
+DEFAULT:
+- are corp, clasa poate mosteni implementarea sau o poate suprascrie
+
+STATIC:
+- apartine interfetei, nu instantelor, se apleleaza Interfara.metoda()
